@@ -104,8 +104,8 @@ pipeline {
                             ls -l
                         '''
                         sh '''
-                            git config user.email "rashiddaha80@gmail.com"
-                            git config user.name "codewithmuh"
+                            git config user.email "padavalaramesh544@gmail.com"
+                            git config user.name "ramesh55901"
                             BUILD_NUMBER=${BUILD_NUMBER}
                             echo $BUILD_NUMBER
                             imageTag=$(grep -oP '(?<=frontend:)[^ ]+' deployment.yaml)
